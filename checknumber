@@ -1,0 +1,12 @@
+#Get an input number from the user and check whether it is a positive or negative number.
+num=float(input("Enter a number:"))
+
+if (num>0):
+	print("Positive number")
+elif(num==0):
+	print("Neither positive nor negative")
+elif(num<0):
+	print("Negative number")
+	
+else:
+	print("Invalid Input")
