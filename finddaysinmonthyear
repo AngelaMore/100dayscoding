@@ -1,0 +1,15 @@
+#Write a program to find Number of days in a given month of a given year
+m=int(input("Enter the number of month:"))
+year=int(input("Enter the year:"))
+if m==1 or m==3 or m==5 or m==7 or m==8 or m==10 or m==12:
+    print("31 days")
+    
+elif m==2:
+    if year%4==0:
+        print("29 days")
+    else:
+        print("28 days")
+else:
+    print("30 days")
+
+    
