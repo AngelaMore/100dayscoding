@@ -1,0 +1,18 @@
+
+n=int(input("Enter n:"))
+a,b,count=0,1,3
+
+if n<0:
+    print("Enter positive number")
+elif n==1:
+    print(a)
+else:
+    print(a,",",b,",")
+    while(count<=n):
+        
+        d=a+b
+        print(d,",")
+        a=b
+        b=d
+        count+=1
+
